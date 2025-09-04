@@ -5,7 +5,10 @@
 
 const string1 = "My favorite dessert is jello";
 
-// Your code here...
+const indexOfJ = string1.indexOf("j");
+
+console.log(string1[indexOfJ]);
+
 
 
 
@@ -31,7 +34,7 @@ console.log(cool);
 
 const string3 = "Na";
 
-// Your code here...
+console.log(string3.repeat(4) + " Batman!");
 
 
 
@@ -90,8 +93,14 @@ const string4 = "zEAWrTC9EgtxmK9w1";
 
 
 // a) Print the string length
-// Your code here ...
+
+console.log(string4.length);
 
 
 // b) Print the last character in the string
-// Your code here ...
+
+console.log(string4.slice(-1));
+
+// if you meant the w then it will be
+
+console.log(string4.slice(-2,-1));
